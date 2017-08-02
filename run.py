@@ -145,7 +145,7 @@ class MockedRobot(object):
 
     @property
     def servo_boards(self):
-        return {'bees': self.motor_board}
+        return {'bees': self.servo_board}
 
 
 
